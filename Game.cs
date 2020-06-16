@@ -1,10 +1,6 @@
 using System;
 
 //changing the position of the arrow
-// out allows to return more than one value
-//static means that behaviour of the method is not specific to any instance
-//    but to the class
-//
 namespace ConsoleGame {
   class Game : SuperGame {
     public new static void UpdatePosition(string key_pressed, out int coordinate_x, out int coordinate_y) {
